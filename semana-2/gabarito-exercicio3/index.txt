@@ -1,0 +1,11 @@
+- 1 input de texto
+- 1 input de texto
+- 1 input de texto
+- 1 select
+
+- 1 input radio
+- 1 input checkbox
+- 1 text area
+
+- input: submit
+- input: reset

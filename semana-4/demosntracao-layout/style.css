@@ -1,0 +1,168 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f1f5f9;
+}
+
+/* HEADER */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  background: #111827;
+  color: white;
+
+  text-align: center;
+  padding: 20px;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+  width: 100%;
+  padding: 20px;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: sticky;
+  top: 80px;
+
+  display: inline-block;
+  vertical-align: top;
+
+  width: 220px;
+
+  background: white;
+  padding: 16px;
+  margin-right: 20px;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+/* LISTA */
+.sidebar ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.sidebar li {
+  padding: 6px 0;
+  color: #334155;
+}
+
+/* BOX */
+.promo-box {
+  margin-top: 20px;
+  padding: 12px;
+  background: #fef3c7;
+  border-radius: 8px;
+}
+
+/* CONTEÚDO */
+.content {
+  display: inline-block;
+  vertical-align: top;
+
+  width: calc(100% - 260px);
+}
+
+/* CARD */
+.card {
+  position: relative;
+
+  display: inline-block;
+  vertical-align: top;
+
+  width: 300px;
+
+  margin: 10px;
+  padding: 16px;
+
+  background: white;
+  border-radius: 12px;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+
+  transition: .3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* BADGE */
+.badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+
+  background: crimson;
+  color: white;
+
+  padding: 6px 10px;
+  border-radius: 999px;
+
+  font-size: 12px;
+}
+
+/* IMG */
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* TEXTO */
+.card h2 {
+  margin-top: 12px;
+}
+
+.card p {
+  margin: 10px 0;
+  color: #475569;
+}
+
+/* BOTÃO */
+.card button {
+  border: none;
+  background: #2563eb;
+  color: white;
+
+  padding: 10px 16px;
+  border-radius: 8px;
+
+  cursor: pointer;
+}
+
+/* FLOATING BUTTON */
+.floating-button {
+  position: fixed;
+
+  right: 20px;
+  bottom: 20px;
+
+  width: 60px;
+  height: 60px;
+
+  background: #22c55e;
+  color: white;
+
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: 60px;
+
+  font-size: 28px;
+
+  text-decoration: none;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}

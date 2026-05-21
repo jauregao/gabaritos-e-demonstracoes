@@ -1,0 +1,44 @@
+Exercício 1 — Meu cartão de apresentação
+
+Crie uma página HTML simples representando um cartão de apresentação pessoal.
+
+Seu cartão deve conter:
+seu nome usando a tag <h1>
+sua profissão ou área de interesse usando a tag <p>
+uma pequena descrição com 2 ou 3 linhas
+um botão com o texto "Entrar em contato"
+
+Depois, crie um arquivo CSS externo e estilize os elementos.
+
+Requisitos:
+
+Estrutura HTML
+Utilize:
+<main> x
+<section> x
+<h1> x
+<p> x
+<button> x
+Estilização CSS
+
+Seu CSS deve utilizar:
+
+Seletores:
+seletor por tagx
+seletor por classex
+
+Tipografia:
+font-familyx
+font-sizex
+font-weightx
+
+Cores:
+cor de fundox
+cor de textox
+
+Botão:
+cursorx
+transition 
+
+Interação:
+Criar efeito com :hover quando o mouse passar sobre o botão.x
