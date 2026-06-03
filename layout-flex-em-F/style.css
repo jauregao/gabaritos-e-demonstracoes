@@ -1,0 +1,154 @@
+/* ==========================
+   Reset & variables
+   ========================== */
+:root {
+  --primary: #0143d5;
+  --container-width: 80%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+}
+
+/* ==========================
+  Layout: header / main
+   ========================== */
+header {
+  border: 2px solid var(--primary);
+  padding: 10px 0;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 74px);
+}
+
+.container {
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
+/* ==========================
+  Header pieces
+   ========================== */
+.container-header {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.container-header .line,
+.header-bar {
+  flex: 1 1 auto;
+  height: 8px;
+}
+
+.circle {
+  background-color: var(--primary);
+  border-radius: 50%;
+}
+
+.header-logo {
+  flex: 0 0 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.circles {
+  display: flex;
+  gap: 10px;
+}
+
+.circle-menu {
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+}
+
+/* ==========================
+  Content blocks
+   ========================== */
+.line {
+  width: 100%;
+  height: 15px;
+  background-color: var(--primary);
+  border-radius: 50px;
+}
+
+#title-block {
+  height: 50px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  height: 400px;
+}
+
+#content-left {
+  background-color: var(--primary);
+  height: 100%;
+  width: 40%;
+  border-radius: 10px;
+}
+
+#content-right {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+}
+
+.content-block {
+  width: 60%;
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: 10px;
+}
+
+.content-texts {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.text-line {
+  height: 20px;
+  width: 100%;
+}
+
+#content-block-2 {
+  order: 2;
+}
+
+#content-text-2 {
+  order: 1;
+}
